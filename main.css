@@ -1,0 +1,77 @@
+body{
+    background: #051622;   
+}
+
+.container{
+    top:17%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    position: absolute;
+}
+
+.search-box{
+    border-radius: 50px;
+    background: white;
+    border: 5px solid #FF6864;
+}
+
+form{
+    margin: 0;
+}
+
+input{
+    border: none;
+    margin: 10px 5px 10px 3px;
+    font-size: 20px;
+    outline: none;
+    color: #085f63;
+}
+
+
+i{
+    font-size: 25px;
+    margin: 0px 15px;
+    color: #085f63;
+}
+
+i:hover{
+    color: #76b39d;
+}
+
+button{
+    background: transparent;
+    border: none;
+}
+
+#gif{
+    position:fixed; 
+	top:0; 
+	left:0; 
+}
+
+#pod{
+    font-size: 30px;
+    color:white;
+    font-weight: bold;
+    word-break: break-all;
+    white-space: pre-wrap;
+    overflow-y: scroll;
+
+} 
+
+#boat-gif{
+    position: fixed;
+    top: 30%;
+    opacity: 0.7;
+}
+
+#submit {
+    background-color:black; /* Green */
+    border: none;
+    color: white;
+    /*padding: 15px 32px;*/
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+  }
